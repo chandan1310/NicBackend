@@ -1,16 +1,17 @@
-# Use ASP.NET runtime image
+# Use the official .NET SDK image
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
 EXPOSE 80
 
-# Build stage
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY . .
-RUN dotnet publish -c Release -o /app
+COPY ["NicBackend.csproj", "./"]
+RUN dotnet restore "./NicBackend.csproj"
 
-# Final stage
+COPY . .
+RUN dotnet publish "NicBackend.csproj" -c Release -o /app/publish
+
 FROM base AS final
 WORKDIR /app
-COPY --from=build /app .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "NicBackend.dll"]

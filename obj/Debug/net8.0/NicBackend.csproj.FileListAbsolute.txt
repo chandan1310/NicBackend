@@ -170,3 +170,4 @@ C:\Users\Chandan Dewangan\OneDrive\Desktop\NIC Task\NicBackend\obj\Debug\net8.0\
 C:\Users\Chandan Dewangan\OneDrive\Desktop\NIC Task\NicBackend\obj\Debug\net8.0\NicBackend.genruntimeconfig.cache
 C:\Users\Chandan Dewangan\OneDrive\Desktop\NIC Task\NicBackend\obj\Debug\net8.0\ref\NicBackend.dll
 C:\Users\Chandan Dewangan\OneDrive\Desktop\NIC Task\NicBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Chandan Dewangan\OneDrive\Desktop\NIC Task\NicBackend\obj\Debug\net8.0\NicBackend.sourcelink.json
