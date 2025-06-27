@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NicBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a99919a5e0711344ab2997820a5029647dfaa5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f187da4ff838fda0604c3f14170d7d854ddc035")]
 [assembly: System.Reflection.AssemblyProductAttribute("NicBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NicBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
